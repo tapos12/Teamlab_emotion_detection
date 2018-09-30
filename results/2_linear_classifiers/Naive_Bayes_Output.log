@@ -1,0 +1,6 @@
+              anger   disgust      fear     happy      love       sad  surprise     trust 
+ Precision    75.50     98.78     62.88     66.88     50.30     57.26     58.94     28.57 
+    Recall    32.90     13.61     43.30     77.60     46.06     73.62     17.07      0.26 
+   F-Score    45.83     23.93     51.29     71.84     48.09     64.41     26.47      0.52 
+
+ == Eval Accuracy: 62.26 ==

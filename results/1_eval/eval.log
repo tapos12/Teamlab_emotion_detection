@@ -1,0 +1,7 @@
+$ ./1_eval ../teamlab-ss2017/emotion/dev-predicted.csv ../teamlab-ss2017/emotion/dev.csv
+              anger   disgust      fear     happy      love       sad  surprise     trust
+ Precision    54.09      2.25     32.53     48.83     32.39     48.70     29.35      3.24
+    Recall    12.89      1.01     15.06     89.60      0.23     33.90      4.34      4.49
+   F-Score    20.82      1.39     20.59     63.21      0.45     39.98      7.57      3.76
+
+ == Accuracy: 48.09 ==

@@ -1,0 +1,36 @@
+$ ./2_perceptron ../teamlab-ss2017/emotion/train.csv ../teamlab-ss2017/emotion/dev.csv
+[20:29:51] <main> INFO: Logging started
+[20:29:58] <lib.reader.read_tweets> INFO: read 1223467 tweets from ../teamlab-ss2017/emotion/train.csv
+[20:30:00] <lib.reader.read_tweets> INFO: read 411079 tweets from ../teamlab-ss2017/emotion/dev.csv
+[20:30:00] <lib.classifiers.perceptron.Perceptron> INFO: logging started
+[20:30:00] <lib.classifiers.perceptron.FeatureExtractor> INFO: logging started
+[20:30:00] <lib.classifiers.perceptron.FeatureExtractor> INFO: caching enabled
+[20:30:09] <lib.classifiers.perceptron.FeatureExtractor> INFO: found 8 classes and 1946843 features
+[20:30:09] <lib.classifiers.perceptron.Perceptron> INFO: initializing weight matrix to size 8 x 1946843
+acc train: 65.37 eval: 63.78 eval_avg: 72.52    time elapsed train: 8847.12 eval: 2338.93 total: 11186.06
+acc train: 71.59 eval: 64.93 eval_avg: 73.06    time elapsed train: 8628.43 eval: 2090.93 total: 10719.36
+acc train: 74.65 eval: 67.76 eval_avg: 73.15    time elapsed train: 7373.62 eval: 1912.52 total: 9286.13
+acc train: 76.63 eval: 67.66 eval_avg: 73.17    time elapsed train: 6804.29 eval: 1161.39 total: 7965.68
+acc train: 78.20 eval: 66.74 eval_avg: 73.17    time elapsed train: 7339.20 eval: 1982.96 total: 9322.15
+acc train: 79.31 eval: 66.10 eval_avg: 73.17    time elapsed train: 5438.54 eval: 1407.68 total: 6846.21
+acc train: 80.24 eval: 68.54 eval_avg: 73.14    time elapsed train: 7103.53 eval: 1589.25 total: 8692.78
+acc train: 80.97 eval: 67.34 eval_avg: 73.13    time elapsed train: 4894.41 eval: 983.51 total: 5877.91
+acc train: 81.57 eval: 68.11 eval_avg: 73.11    time elapsed train: 4424.34 eval: 961.46 total: 5385.80
+acc train: 82.04 eval: 65.43 eval_avg: 73.07    time elapsed train: 5250.63 eval: 1169.32 total: 6419.94
+acc train: 82.49 eval: 68.86 eval_avg: 73.03    time elapsed train: 4655.82 eval: 1426.75 total: 6082.58
+acc train: 82.72 eval: 65.62 eval_avg: 73.01    time elapsed train: 6474.75 eval: 1757.92 total: 8232.68
+acc train: 83.17 eval: 65.47 eval_avg: 73.00    time elapsed train: 5652.49 eval: 1214.31 total: 6866.80
+acc train: 83.46 eval: 67.53 eval_avg: 72.97    time elapsed train: 5238.30 eval: 1132.31 total: 6370.61
+acc train: 83.65 eval: 68.60 eval_avg: 72.94    time elapsed train: 4462.45 eval: 973.15 total: 5435.60
+acc train: 83.85 eval: 67.96 eval_avg: 72.90    time elapsed train: 4083.22 eval: 967.23 total: 5050.45
+acc train: 84.05 eval: 67.83 eval_avg: 72.89    time elapsed train: 4007.34 eval: 946.18 total: 4953.52
+acc train: 84.22 eval: 69.00 eval_avg: 72.86    time elapsed train: 3997.58 eval: 955.55 total: 4953.13
+acc train: 84.32 eval: 67.44 eval_avg: 72.85    time elapsed train: 4012.27 eval: 974.57 total: 4986.85
+acc train: 84.51 eval: 67.31 eval_avg: 72.83    time elapsed train: 4024.00 eval: 1151.71 total: 5175.71
+acc train: 84.63 eval: 67.57 eval_avg: 72.80    time elapsed train: 6046.26 eval: 1216.83 total: 7263.09
+acc train: 84.74 eval: 67.36 eval_avg: 72.77    time elapsed train: 5531.16 eval: 1781.42 total: 7312.58
+acc train: 84.81 eval: 67.94 eval_avg: 72.74    time elapsed train: 5183.93 eval: 1177.60 total: 6361.53
+acc train: 84.96 eval: 68.39 eval_avg: 72.72    time elapsed train: 4422.35 eval: 1001.17 total: 5423.52
+acc train: 85.08 eval: 67.62 eval_avg: 72.70    time elapsed train: 4280.20 eval: 1008.04 total: 5288.24
+acc train: 85.12 eval: 69.22 eval_avg: 72.68    time elapsed train: 4000.13 eval: 1005.33 total: 5005.46
+acc train: 85.17 eval: 68.22 eval_avg: 72.66    time elapsed train: 3944.09 eval: 984.61 total: 4928.70
